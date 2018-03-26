@@ -42,6 +42,9 @@ def play (songs)
   puts "Please enter a song name or number:"
   n = gets.chomp
 
+  if n <= songs.zie
+    puts "Playing #{songs[n-1]}"
+
 
 
 end
