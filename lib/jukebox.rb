@@ -22,6 +22,12 @@ I accept the following commands:
 "
 end
 
+
+# #list
+# lists out the available songs (FAILED - 6)
+def list
+end
+
 # #play
 #can find a song when given a number from the user (FAILED - 2)
 # can find a song when given a full song name (FAILED - 3)
@@ -32,8 +38,7 @@ def play
 end
 
 
-# #list
-# lists out the available songs (FAILED - 6)
+
 # #exit_jukebox
 # terminates the running of the program and outputs 'Goodbye' (FAILED - 7)
 # #run
