@@ -41,14 +41,18 @@ end
 def play (songs)
   puts "Please enter a song name or number:"
   n = gets.chomp
-  if(n.to_i)
-    if n <= songs.size && n > 0
+  type = n.class
+  if(type == Fixnum)
+    if  (n > 0 && n <= songs.size )
       puts "Playing #{songs[n-1]}"
+      return
     else
       puts "Invalid input, please try again"
-      return nil
+      return Error
     end
-  else
+  elsif(type == String)
+    songs.each do |name|
+      if
 
 
   end
