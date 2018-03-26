@@ -52,7 +52,7 @@ def play (songs)
     end
   elsif(type == String)
     songs.each do |name|
-      if (name.lowcase == n.lowcase)
+      if (name.downcase == n.downcase)
         puts "Playing #{name}"
         return
       end
