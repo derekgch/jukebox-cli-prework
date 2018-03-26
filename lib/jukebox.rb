@@ -50,9 +50,9 @@ def play (songs)
       puts "Invalid input, please try again"
       return Error
     end
-  elsif(type == String)
+  elsif(input == String)
     songs.each do |name|
-      if (name.downcase == n.downcase)
+      if (name.downcase == input.downcase)
         puts "Playing #{name}"
         return
       end
