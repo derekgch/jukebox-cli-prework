@@ -56,7 +56,9 @@ def play (songs)
         puts "Playing #{name}"
         return
       end
-    end  #songs.each   
+    end  #songs.each
+  else
+    return Error
   end #if
 end
 
