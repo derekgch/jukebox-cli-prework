@@ -57,6 +57,7 @@ def play (songs)
         return
       end
     end  #songs.each
+    puts "Invalid input, please try again"
   else
     puts "Invalid input, please try again"
     return Error
