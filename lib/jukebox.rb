@@ -25,7 +25,12 @@ end
 
 # #list
 # lists out the available songs (FAILED - 6)
-def list
+def list(songs)
+
+    songs.each_with_index do |name, index |
+      puts "#{index+1}. #{name}"
+    end
+
 end
 
 # #play
@@ -33,7 +38,9 @@ end
 # can find a song when given a full song name (FAILED - 3)
 # returns an error when given a number that does not correspond to a song (FAILED - 4)
 # returns an error when given a name that does not correspond to an existing song (FAILED - 5)
-def play
+def play (songs)
+
+
 
 end
 
