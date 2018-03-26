@@ -10,3 +10,20 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
+# #help
+#      lists out the possible commands (FAILED - 1)
+def help
+  
+end
+
+# #play
+#      can find a song when given a number from the user (FAILED - 2)
+# can find a song when given a full song name (FAILED - 3)
+# returns an error when given a number that does not correspond to a song (FAILED - 4)
+# returns an error when given a name that does not correspond to an existing song (FAILED - 5)
+# #list
+# lists out the available songs (FAILED - 6)
+# #exit_jukebox
+# terminates the running of the program and outputs 'Goodbye' (FAILED - 7)
+# #run
+# starts the program script (FAILED - 8)
