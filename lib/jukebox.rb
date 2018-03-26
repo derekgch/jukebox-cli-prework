@@ -52,10 +52,12 @@ def play (songs)
     end
   elsif(type == String)
     songs.each do |name|
-      if
-
-
-  end
+      if (name.lowcase == n.lowcase)
+        puts "Playing #{name}"
+        return
+      end
+    end  #songs.each   
+  end #if
 end
 
 # #exit_jukebox
