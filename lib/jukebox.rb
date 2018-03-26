@@ -41,13 +41,14 @@ end
 def play (songs)
   puts "Please enter a song name or number:"
   n = gets.chomp
-  if(Interger(n))
+  if(n.integer?)
     if n <= songs.size && n > 0
       puts "Playing #{songs[n-1]}"
     else
       puts "Invalid input, please try again"
       return nil
     end
+  else
 end
 
 # #exit_jukebox
