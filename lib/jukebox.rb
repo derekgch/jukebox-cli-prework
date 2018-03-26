@@ -49,6 +49,7 @@ def play (songs)
       return nil
     end
   else
+  end
 end
 
 # #exit_jukebox
