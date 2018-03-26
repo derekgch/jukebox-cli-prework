@@ -39,6 +39,8 @@ end
 # returns an error when given a number that does not correspond to a song (FAILED - 4)
 # returns an error when given a name that does not correspond to an existing song (FAILED - 5)
 def play (songs)
+  puts "Please enter a song name or number:"
+  n = gets.chomp
 
 
 
