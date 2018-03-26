@@ -43,6 +43,7 @@ def play (songs)
   input = gets.chomp
 
   if(input.to_i.class == Fixnum)
+    n=input.to_i
     if  (n > 0 && n <= songs.size )
       puts "Playing #{songs[n-1]}"
       return
