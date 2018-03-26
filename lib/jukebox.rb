@@ -49,7 +49,7 @@ def play (songs)
       return
     else
       puts "Invalid input, please try again"
-      return Error
+      return KeyError
     end
   elsif(input == String)
     songs.each do |name|
