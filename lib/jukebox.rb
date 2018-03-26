@@ -45,14 +45,12 @@ def play (songs)
   if n <= songs.size && n > 0
     puts "Playing #{songs[n-1]}"
   else
-
-
-
+    puts "Invalid input, please try again"
+  end
 end
-
-
 
 # #exit_jukebox
 # terminates the running of the program and outputs 'Goodbye' (FAILED - 7)
+
 # #run
 # starts the program script (FAILED - 8)
