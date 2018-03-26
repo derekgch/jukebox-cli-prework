@@ -23,10 +23,15 @@ I accept the following commands:
 end
 
 # #play
-#      can find a song when given a number from the user (FAILED - 2)
+#can find a song when given a number from the user (FAILED - 2)
 # can find a song when given a full song name (FAILED - 3)
 # returns an error when given a number that does not correspond to a song (FAILED - 4)
 # returns an error when given a name that does not correspond to an existing song (FAILED - 5)
+def play
+
+end
+
+
 # #list
 # lists out the available songs (FAILED - 6)
 # #exit_jukebox
