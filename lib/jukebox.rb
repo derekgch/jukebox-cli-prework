@@ -41,7 +41,7 @@ end
 def play (songs)
   puts "Please enter a song name or number:"
   n = gets.chomp
-  if(n.integer?)
+  if(Integer(n))
     if n <= songs.size && n > 0
       puts "Playing #{songs[n-1]}"
     else
@@ -49,6 +49,8 @@ def play (songs)
       return nil
     end
   else
+
+
   end
 end
 
