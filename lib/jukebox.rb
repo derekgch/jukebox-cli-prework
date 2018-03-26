@@ -42,6 +42,7 @@ def play (songs)
   puts "Please enter a song name or number:"
   n = gets.chomp
   type = n.class
+  puts type
   if(type == Fixnum)
     if  (n > 0 && n <= songs.size )
       puts "Playing #{songs[n-1]}"
